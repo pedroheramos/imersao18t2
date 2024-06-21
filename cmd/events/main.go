@@ -12,6 +12,7 @@ import (
 )
 
 func main() {
+	// I CANT DO DATABASE FROM JSON FILE
 	db, err := sql.Open("mysql", "root:root@tcp(localhost:3306)/test_db")
 	if err != nil {
 		panic(err)
